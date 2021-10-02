@@ -1,0 +1,126 @@
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1, h2 {
+    font-weight: 500;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.iguana-header {
+    background-image: url('../img/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 3rem;
+    height: 70rem;
+}
+
+header h1 {
+    background: #000000;
+    margin-bottom: 1rem;
+    font-size: 3.125rem;
+
+}
+
+.texto-1 {
+    font-weight: 300;
+    font-size: 1rem;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    margin: 75px 20%;
+    height: 237px;
+    white-space: normal;
+}
+
+.texto-1 p {
+    text-align: left;
+    width: 40%;
+    margin-top: 1rem;
+    line-height: 19px;
+}
+
+.texto-1 img {
+    float: right;
+}
+
+.texto-2 {
+    background-color: #1E1A13;
+    height: 348px;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 2.5rem;
+    height: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconos {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconos i {
+    font-size: 57px;
+}
+
+.tercer-ojo{
+    text-align: center;
+    margin: 50px 10%;
+}
+
+.pacificas{
+    text-align: center;   
+    margin: 0 10%;
+}
+
+.color-c{
+    text-align: center;
+    margin: 0 10%;
+}
+
+.imagen-iguanas {
+    margin: 75px 15%;
+    height: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.imagen-iguanas img {
+    margin-right: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #1E1A13;
+    padding: 39px 0;
+    font-size: 1.25rem;
+}
+
+footer a:visited {
+    color: #ffffff;
+}
+
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
